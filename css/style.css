@@ -1,0 +1,11 @@
+#homeButton {
+color: #f7cab7; border: 2px solid white;
+padding: 2px 13px 2px 13px; border-radius: 7em / 6em;
+}
+
+#navBar {height: 8%;}
+
+#logo {
+    max-width: 100%;
+    height: auto;
+}
