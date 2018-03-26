@@ -5,7 +5,27 @@ padding: 2px 13px 2px 13px; border-radius: 7em / 6em;
 
 #navBar {height: 8%;}
 
-#logo {
+/* #logo {
     max-width: 100%;
     height: auto;
+} */
+
+.navbar-brand {
+    padding: 0px;
+  }
+  .navbar-brand>img {
+    height: auto;
+    padding: 15px;
+    width: auto;
+  }
+
+/* a:hover{
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 25px;
+} */
+
+.navbar-nav > li > a {
+  padding-left: 15px;
+  padding-bottom: 15px;
 }
