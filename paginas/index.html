@@ -8,6 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="../css/icons.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/infoBlocks.css" />
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
   <script src="main.js"></script>
@@ -57,30 +59,33 @@
   </div>
   <!-- SECAO PARA A LISTA DE CONTEUDOS-->
   <section>
-    <h5 class="text-center h5">
+    <div id="backImage">
+    <h5 class="text-center h5 text-white">
       Participe do evento
       <br/>Poder Vermelho!</h3>
       <br/>
       <div>
-        <ul class="row">
-          <li class="col-sm-4">
-            <img src="../img/icons/octoticons/file-text.svg" class="rounded iconeConteudo" />
-            <h5>Preencha o pre cadastro</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur</p>
+        <ul class="row ">
+          <li class="col-sm-4" id="blOne">
+            <img src="../img/navigation/whiteCircleIfDocument.png" class="rounded " />
+            <h5 class="text-white">Preencha o pre cadastro</h5>
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur</p>
           </li>
-          <li class="col-sm-4">
-            <img src="../img/icons/octoticons/checklist.svg" class="rounded iconeConteudo" />
-            <h5>Preencha o pre cadastro</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur</p>
+          <li class="col-sm-4" id="blTwo">
+            <img src="../img/navigation/whiteCircleIfAproval.png" class="rounded" />
+            <h5 class="text-white">Preencha o pre cadastro</h5>
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur</p>
           </li>
-          <li class="col-sm-4">
-            <img src="../img/icons/octoticons/globe.svg" class="rounded iconeConteudo" />
-            <h5>Preencha o pre cadastro</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur</p>
+          <li class="col-sm-4" id="blThree">
+            <img src="../img/navigation/whiteCircleFindLocation.png" class="rounded" />
+            <h5 class="text-white">Preencha o pre cadastro</h5>
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur</p>
           </li>
         </ul>
+        <br/>
         <div class="col-md-12 text-center">
-          <button type="button" class="btn btn-danger">Faça sua incrição</button>
+          <button type="button" class="btn text-white font-weight-bold" id="redButton">Faça sua incrição</button>
+        </div>
         </div>
         <!-- DIVs DO TEXTO FORMULARIO-->
         <div>

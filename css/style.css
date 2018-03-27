@@ -3,6 +3,20 @@ color: #f7cab7; border: 2px solid white;
 padding: 2px 13px 2px 13px; border-radius: 7em / 6em;
 }
 
+
+/* body {
+  background: url("../img/background/bgImage.png");
+} */
+
+#backImage {
+  background: url("../img/background/bgImage.png")
+}
+
+#redButton {
+  background-color: #d60000;
+}
+
+
 #navBar {height: 8%;}
 
 /* #logo {

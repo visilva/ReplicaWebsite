@@ -1,0 +1,17 @@
+/* AJEITAMENTO DOS ICONES */
+.infoIcon {
+    padding: 20px;
+}
+
+/* CORES DOS BLOCOS */
+#blOne {
+    background-color: #ff8585;
+}
+
+#blTwo {
+    background-color: #ff3c3c;
+}
+
+#blThree {
+    background-color: #c30606;
+}
